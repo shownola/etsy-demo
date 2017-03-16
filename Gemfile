@@ -27,6 +27,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "paperclip", "~> 5.0.0"
+gem "figaro"
+gem 'devise'
+
 
 group :production do
   gem 'pg'

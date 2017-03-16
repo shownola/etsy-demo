@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  # Remember to change localhost - In production, :host should be set to the actual host of your application, i.e. if app name is www.etsy.com change 'localhost' to 'www.etsy.com'
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
